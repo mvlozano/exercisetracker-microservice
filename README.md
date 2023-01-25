@@ -1,5 +1,5 @@
 # API Project: Exercise Tracker for FCC
-[![Run on Repl.it](https://exercisetracker-microservice.mvlozano.repl.co)
+[![Run on Repl.it](https://exercisetracker-microservice.mvlozano.repl.co)]
 
 ## About
 My solution for the [Exercise Tracker challenge](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/exercise-tracker) for the freeCodeCamp API and Microservice certification. It was built based on the boilerplate available [here](https://github.com/freeCodeCamp/boilerplate-project-exercisetracker/).
