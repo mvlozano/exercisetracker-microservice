@@ -23,7 +23,7 @@ GET `/api/users/:_id/logs?[from][&to][&limit]` | Return the log of a user's exer
 * POST `/api/users` body.username: `Marcos` output: `{"_id":"63d0c5a3a3a757112790d9b3","username":"Marcos"}`
 * GET `/api/users` output: `[{"_id":"63d034c75ea37bdfdc6c9c87","username":"fcc_test_16745893830","__v":0},{"_id":"63d034cb5ea37bdfdc6c9c89","username":"fcc_test_16745893869","__v":0},{"_id":"63d0c5a3a3a757112790d9b3","username":"Marcos","__v":0}]`
 * POST `/api/users/63d0c5a3a3a757112790d9b3/exercises` output: `{"username":"Marcos","description":"test","duration":20,"date":"Wed Jan 25 2023","_id":"63d0c5a3a3a757112790d9b3"}`
-* GET `/api/users/63d0c5a3a3a757112790d9b3/logs?from=1999-11-12&to=2023-01-25&limit=2` _id: `63d0c5a3a3a757112790d9b3` output: `{"username":"Marcos","count":2,"_id":"63d0c5a3a3a757112790d9b3","log":[{"description":"test","duration":20,"date":"Fri Nov 12 1999"},{"description":"test","duration":20,"date":"Wed Jan 25 2023"}]}`
+* GET `/api/users/63d0c5a3a3a757112790d9b3/logs?from=1999-11-12&to=2023-01-25&limit=2` output: `{"username":"Marcos","count":2,"_id":"63d0c5a3a3a757112790d9b3","log":[{"description":"test","duration":20,"date":"Fri Nov 12 1999"},{"description":"test","duration":20,"date":"Wed Jan 25 2023"}]}`
 
 ## How to use:
 Be sure to change the `uri` variable in `database.js` according to your own MongoDB server. It's also possible to just create a `.env` file and store this information there in order to keep it hidden and safe. Then, just run on terminal:
